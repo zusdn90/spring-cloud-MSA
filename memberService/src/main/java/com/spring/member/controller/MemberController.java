@@ -25,6 +25,11 @@ public class MemberController {
         return "Member Detail - Port " + port + " _ " + message;
     }
 
+    @GetMapping("/pay/detail")
+    public String pay() {
+        return "Pay Detail - Port " + port + " - " + message;
+    }
+
 //    @GetMapping("/member/password")
 //    public String memberPassword() {
 //        return "Member Password - " + password;
