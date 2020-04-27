@@ -1,6 +1,7 @@
 # bootstrap-local.yml 로컬 환경설정 파일
 spring:
-  profile: native
+  profiles:
+    active: local
   cloud:
     config:
       server:

@@ -1,5 +1,6 @@
 spring:
-  profile: alpha
+  profiles:
+    active: alpha
   cloud:
     config:
       server:
