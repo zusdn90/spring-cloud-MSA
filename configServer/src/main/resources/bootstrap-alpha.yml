@@ -1,0 +1,8 @@
+spring:
+  profile: alpha
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zusdn90/spring-cloud-MSA
+          search-paths: server-configs

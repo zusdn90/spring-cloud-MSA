@@ -1,7 +1,7 @@
 # member-service bootstrap-local.yml
 spring:
   profiles: local
-  message: Hello Spring MemberService Local Server!!!!!
+#  message: Hello Spring MemberService Local Server!!!!!
   cloud:
     config:
       uri: http://localhost:9001

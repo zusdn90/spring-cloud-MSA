@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/v1")
 @RefreshScope
-public class ContentController {
+public class ContentsController {
 
     @Value("${server.port}")
     private int port;
