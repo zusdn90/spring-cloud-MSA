@@ -6,9 +6,11 @@ import com.spring.cloud.gateway.filters.GatewayPreFilter;
 import com.spring.cloud.gateway.filters.GatewayRouteFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 
+@EnableDiscoveryClient
 @EnableZuulProxy    // Gateway 서버 활성화
 @SpringBootApplication
 public class GatewayApplication {

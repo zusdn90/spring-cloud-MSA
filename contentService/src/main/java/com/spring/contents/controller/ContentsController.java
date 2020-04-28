@@ -1,4 +1,4 @@
-package com.spring.content.controller;
+package com.spring.contents.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;

@@ -1,17 +1,15 @@
-package com.spring.cloud;
+package com.spring.contents;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
 @EnableDiscoveryClient
-@EnableConfigServer
 @SpringBootApplication
-public class CloudConfigApplication {
+public class ContentServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CloudConfigApplication.class, args);
+        SpringApplication.run(ContentServiceApplication.class, args);
     }
 
 }
