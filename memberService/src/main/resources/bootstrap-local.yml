@@ -1,8 +1,11 @@
 # member-service bootstrap-local.yml
 spring:
   profiles: local
-#  message: Hello Spring MemberService Local Server!!!!!
+#message: Hello Spring MemberService Local Server!!!!!
   cloud:
     config:
       uri: http://localhost:9001
       fail-fast: true # 클라이언트 서버를 시작할 때 Config 서버에서 정보를 로드할 수 없을 경우엔 서버를 실행하지 않겠다는 설정
+#      discovery:
+#        service-id: config-service
+#        enabled: true
