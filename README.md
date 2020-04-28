@@ -1,4 +1,4 @@
-# spring-cloud-MSA 구성 실습
+# Spring-Cloud-MSA 구성 실습
 Spring Cloud MicroService Architechture
 
 ### 0. 개요
